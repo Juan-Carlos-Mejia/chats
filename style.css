@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff;
+    /* FF725E */
+}
+/*main area*/
+.header-main{
+    background: #FF725E;
+    text-align: center;
+    color: #fff;
+    padding: 10px 54px;
+    margin-bottom: 540px;
+    border-radius: 5px;
+}
+.image-main{
+    position: relative;
+    top: 20px;  
+    right: 420px;
+    width: 464px;
+}
+.area-produccion{
+    background: rgb(34, 34, 230);
+    position: relative;
+    top: 5px;
+    right: 224px;
+    width: 140px;
+    border-radius: 5px;
+    padding: 15px 12px;
+}
+.area-produccion a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.area-ventas{
+    background: rgb(58, 243, 58);
+    position: relative;
+    top: 20px;
+    right: 224px;
+    width: 140px;
+    border-radius: 5px;
+    padding: 25px 12px;
+}
+.area-ventas a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.area-logistica{
+    background: purple;
+    position: relative;
+    top: 40px;
+    right: 224px;
+    width: 140px;
+    border-radius: 5px;
+    padding: 25px 12px;
+}
+.area-logistica a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.area-gerencia{
+    background: rgb(233, 26, 26);
+    position: relative;
+    top: 60px;
+    right: 224px;
+    width: 140px;
+    border-radius: 5px;
+    padding: 25px 12px;
+}
+.area-gerencia a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.area-recursos{
+    background: rgb(212, 212, 37);
+    position: relative;
+    top: 80px;
+    right: 224px;
+    width: 140px;
+    border-radius: 5px;
+    padding: 25px 12px;
+}
+.area-recursos a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.photo-main{
+    width: 654px;
+    margin-right: 62px;
+}
+.photo-secondary{
+    width: 524px;
+    margin-right: 62px;
+}
+.wrapper{
+    background: #fff;
+    width: 450px;
+    border-radius: 16px;
+    border: 1px solid #FF725E;
+    /* box-shadow: 0 0 128px 0 rgba(0,0,0,1),
+    0 32px 64px -48px rgba(0,0,0,0.5); */
+}
+.bg-photo{
+    position: relative;
+    left: 2%;
+    height: 100vh;
+    width: 70vw;
+}
+.wrapper-secondary{
+    position: absolute;
+    width: 340px;
+    height: 460px;
+    border-radius: 16px;
+    /* border: 1px solid #FF725E; */
+}
+.wrapper-secondary img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*Signup form css code*/
+.form{
+    padding: 25px 30px;
+}
+.form header{
+    font-size: 25px;
+    color: #FF725E;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.form form{
+    margin: 20px 0;
+}
+.form form .error-txt{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    display: none;
+}
+.form form .name-details{
+    display: flex;
+}
+.form form .name-details .field:first-child{
+    margin-right: 10px;
+}
+.form form .name-details .field:last-child{
+    margin-left: 10px;
+}
+.form form .field{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form form .field label{
+    margin-bottom: 2px;
+}
+.form form .field input{
+    outline: none;
+}
+.form form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form form .image input{
+    font-size: 17px;
+}
+.form form .button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    background: #FF725E;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.form form .field i.active::before{
+    color: #333;
+    content: "\f070";
+}
+.form .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.form .link a{
+    color: #333;
+}
+.form .link a:hover{
+    text-decoration: underline;
+}
+
+/*Users area css code*/
+.users{
+    padding: 25px 30px;
+}
+
+.users header,
+.users-list a{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #FF725E;
+}
+.wrapper img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+:is(.users, .users-list) .content{
+    display: flex;
+    align-items: center;
+}
+.users header .content img{
+    height: 50px;
+    width: 50px;
+}
+:is(.users, .users-list) .details{
+    color: #000;
+    margin-left: 15px;
+}
+:is(.users, .users-list) .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.users header .logout{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 15px;
+    background: #FF725E;
+    border-radius: 5px;
+}
+.users .search{
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.users .search .text{
+    font-size: 18px;
+}
+.users .search input{
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+.users .search input.active{
+    opacity: 1;
+    pointer-events: auto;
+}
+.users .search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.2s ease;
+}
+.users .search button.active{
+    color: #fff;
+    background: #333;
+}
+.users .search button.active i::before{
+    content: "\f00d";
+}
+.users-list{
+    max-height: 350px;
+    overflow-y: auto;
+}
+:is(.users-list, .chat-box)::-webkit-scrollbar{
+    width: 0px;
+}
+.users-list a{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border-bottom-color: #f1f1f1;
+}
+.users-list a:last-child{
+    border: none;
+    margin-bottom: 0px;
+}
+.users-list a .content img{
+    height: 40px;
+    width: 40px;
+}
+.users-list a .content p{
+    color: #67676a;
+}
+.users-list a .status-dot{
+    font-size: 12px;
+    color: #468669;
+}
+/*we'll use this class name in php to show offline status */
+.users-list a .status-dot.offline{
+    color: #ccc;
+}
+
+/*Chat area CSS code*/
+.chat-area header{
+    display: flex;
+    align-items: center;
+    padding: 18px 30px;
+}
+.chat-area header .back-icon{
+    font-size: 18px;
+    color: #333;
+}
+.chat-area header img{
+    height: 45px;
+    width: 45px;
+    margin: 0 15px;
+}
+.chat-area header span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.chat-box{
+    height: 500px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    padding: 10px 30px 20px 30px;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+                inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+}
+.chat-box .chat{
+    margin: 15px 0;
+}
+.chat-box .chat p{
+    word-wrap: break-word;
+    padding: 8px 16px;
+    box-shadow: 0 0 32px rgb(0 0 0 / 8%),
+    0 16px 16px -16px rgb(0 0 0 / 10%);
+}
+.chat-box .outgoing{
+    display: flex;
+}
+.outgoing .details{
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+}
+.outgoing .details p{
+    background: #333;
+    color: #fff;
+    border-radius: 18px 18px 0 18px;
+}
+.chat-box .incoming{
+    display: flex;
+    align-items: flex-end;
+}
+.chat-box .incoming img{
+    height: 35px;
+    width: 35px;
+}
+.incoming .details{
+    margin-left: 10px;
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+}
+.incoming .details p{
+    color: #333;
+    background: #fff;
+    border-radius: 18px 18px 18px 0;
+}
+.chat-area .typing-area{
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.typing-area input{
+    height: 45px;
+    width: calc(100% - 58px);
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.typing-area button{
+    width: 55px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
